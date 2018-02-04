@@ -1,0 +1,35 @@
+README
+
+LiveNet Workspace Analyzer is a visualization tool for analyzing
+and visualizing the network of workspaces in the LiveNet
+workspace system. LiveNet in turn is a research prototype of a
+web-based workspace management system developed at the University
+of Technology, Sydney in Australia. (Not to be confused with many
+other systems and websites called LiveNet.)
+
+The LiveNet Workspace Analyzer is designed to connect to a
+running LiveNet server's database, and then visualizes the
+workspaces and their components (documents, participants, roles,
+etc).
+
+A demo mode exists which reads and visualizes serialized
+workspace network data.
+
+Running:
+
+./gradlew demo
+
+
+References documenting the design philosophy of LiveNet:
+
+[1] S. Gao, I. T. Hawryszkiewycz and D. Xue, "Component-based
+collaborative virtual environment," International Conference on
+Information Technology: Research and Education,
+2003. Proceedings. ITRE2003., 2003, pp. 421-425.
+https://doi.org/10.1109/ITRE.2003.1270650
+
+[2] Igor Hawryszkiewycz, "Creating and supporting learning
+environments," Proceedings of the Australasian conference on
+Computing education (ACSE '00). Ainslie E. Ellis (Ed.). ACM, New
+York, NY, USA, 2000, pp. 134-138.
+https://doi.org/10.1145/359369.359389
