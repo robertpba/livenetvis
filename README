@@ -19,6 +19,9 @@ Running:
 
 ./gradlew demo
 
+A screenshot showing the visualization window, control panel and
+a colour legend panel is shown in screenshot.png .
+
 
 References documenting the design philosophy of LiveNet:
 
